@@ -7,8 +7,12 @@ class ContactPage extends React.Component {
         return (
             <div>
                 <Title heading="Contact Me" />
-                <p>Any queries or questions, get in contact.</p>
-                <p>Email: ubelhor3000@gmail.com</p>
+                <div className="my-5">
+                    <p>GitHub: <a href="https://github.com/arne3000" target="_blank">github.com/arne3000</a></p>
+                    <p>Phone: 07411 171047</p>
+                    <p>Email: ubelhor3000@gmail.com</p>
+                    <p>CV: <a href="/cv.pdf" download="arne-ubelhor-cv.pdf">download</a></p>
+                </div>
                 <form action="//formspree.io/ubelhor3000@gmail.com" method="POST">  
                     <input type="hidden" name="_subject" value="New email from website"/>
                     <input type="text" name="name" id="name" placeholder="Name" required=""/>
@@ -16,10 +20,10 @@ class ContactPage extends React.Component {
                     <textarea name="message" id="message" placeholder="Leave a message" rows="4" required=""></textarea>
                     <button type="submit">Send</button>
                 </form>
-                <Navigation />
+                
             </div>
         );
     }
 }
-
+//<Navigation />
 module.exports = ContactPage;

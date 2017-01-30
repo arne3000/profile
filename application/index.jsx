@@ -16,14 +16,15 @@ class App extends React.Component {
   render () {
     return (
         <Router history={hashHistory}>
-            <Route path="/" component={ProjectsPage}/>
-            <Route path="/contact" component={ContactPage}/>
-            <Route path="/blog/:blogId" component={BlogPage}/>
-            <Route path="/project/:projectId" component={ProjectPage}/>
+            <Route path="/" component={ContactPage}/>
         </Router>
     );
   }
 }
+
+//<Route path="/contact" component={ContactPage}/>
+//<Route path="/blog/:blogId" component={BlogPage}/>
+//<Route path="/project/:projectId" component={ProjectPage}/>
 
 //fixed components
 render(<App/>, document.getElementById('react-page'));

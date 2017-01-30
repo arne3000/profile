@@ -1,0 +1,140 @@
+body {
+    padding: 2rem;
+}
+
+
+/*
+h1.title {
+    font-size: 1.0em;
+    font-weight: normal;
+    margin: 0;
+    margin-bottom: 0.3em;
+    padding-bottom: 0.3em;
+}*/
+
+#header-component {
+    padding-bottom: 20px;
+}
+
+.header>img {
+    width: 100%;
+    max-width: 230px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*
+section {
+    background: #6dec44;
+    padding: 15px 15px 5px 15px;
+    color: white;
+    margin-bottom: 15px;
+    border: 2px black solid;
+}
+
+section>a {
+    text-decoration: none;
+}
+
+section p {
+    font-size: 15px;
+    color: black;
+    margin: 0;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+section p.title {
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    line-height: 30px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+section p.footer {
+    color: white;
+}
+
+section span {
+    padding: 0 5px;
+}
+
+section span:first-child {
+    padding-left: 0;
+}
+
+section span.time {
+    float: right;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    display: flex;
+    padding: 4px;
+    background: white;
+}
+
+footer>a {
+    flex: 1;
+    border: 2px black solid;
+    margin: 4px;
+    text-align: center;
+    padding-top: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+footer>a:active,
+footer>a:hover,
+footer>a.active {
+    color: white;
+    background: black;
+}*/
+
+form input,
+form textarea,
+form button {
+    padding: $btn-padding-y $btn-padding-x;
+    margin-bottom: 1rem;
+    display: block;
+    width: 100%;
+    border: black solid 2px;
+    font-size: 1.1em;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: $font-family-base;
+}
+
+form button {
+    background: white;
+    color: black;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    cursor: pointer;
+}
+
+form input,
+form textarea {
+    background: black;
+    color: white;
+}
+
+form button:hover,
+form button:active {
+    background: black;
+    color: white;
+}

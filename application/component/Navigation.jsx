@@ -5,11 +5,12 @@ class Navigation extends React.Component {
     render() {
         return (
             <footer>
-                <Link to="/" activeClassName="active">Projects</Link>
-                <Link to="/contact" activeClassName="active">Contact</Link>
+                <Link to="/" activeClassName="active">Contact</Link>
             </footer>
         );
     }
 }
+
+//<Link to="#" activeClassName="active">Projects</Link>
 
 module.exports = Navigation;
